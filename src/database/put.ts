@@ -1,6 +1,6 @@
 import { Persisted, InnerDatabase, Key, Emitter, ENTITY_PARTITION, INDEX_PARTITION } from './types';
 
-type Put<ENTITY> = 
+export type Put<ENTITY> = 
     (entity:ENTITY) => 
     Promise<Persisted<ENTITY>>;
     

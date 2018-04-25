@@ -1,6 +1,6 @@
 import { Persisted, InnerDatabase, Key, ENTITY_PARTITION, INDEX_PARTITION } from './types';
 
-type Del<ENTITY> = 
+export type Del<ENTITY> = 
     (persisted:Persisted<ENTITY>) => 
     Promise<void>;
     

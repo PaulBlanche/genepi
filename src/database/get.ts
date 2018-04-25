@@ -1,6 +1,6 @@
 import { Persisted, InnerDatabase, Key, ENTITY_PARTITION } from './types';
 
-type Get<ENTITY> = 
+export type Get<ENTITY> = 
     (key:Key) => 
     Promise<Persisted<ENTITY>>;
     

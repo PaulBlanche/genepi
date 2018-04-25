@@ -5,7 +5,7 @@ interface EntityStream<ENTITY> extends NodeJS.ReadableStream {
     on(event: 'data', listener: (entity:ENTITY) => void): this;
 }
 
-type Stream<ENTITY> = 
+export type Stream<ENTITY> = 
     (index:Key) => 
     EntityStream<ENTITY>;
     
