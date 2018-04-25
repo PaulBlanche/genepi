@@ -1,0 +1,26 @@
+{
+  "name": "genepi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^9.4.7",
+    "@types/uuid": "^3.4.3",
+    "bytewise": "^1.1.0",
+    "encoding-down": "^4.0.0",
+    "leveldown": "^3.0.0",
+    "levelup": "^2.0.2",
+    "memdown": "^2.0.0",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.8.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "tap": "^11.1.4"
+  }
+}
