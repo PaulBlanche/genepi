@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node -r ts-node/register src/**/*.test.ts"
+    "test": "set -e; for t in src/**/*.test.ts; do echo \"\n# $t\" && node -r ts-node/register $t; done"
   },
   "author": "",
   "license": "ISC",
